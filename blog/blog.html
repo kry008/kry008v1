@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kry008's nook</title>
+    <link rel="stylesheet" href="/css/style.css?a=1">
+    <meta name="description" content="{{decription}}">
+    <meta name="keywords" content="kry008, {{keywords}}">
+    <meta name="author" content="{{author}}">
+    <link rel="icon" href="/images/logo.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/logo.png">
+    <meta name='subtitle' content='{{decription}}'>
+    <meta name='og:title' content='{{title}}'>
+    <meta name='og:description' content="{{decription}}">
+    <meta name='og:image' content='https://kry008.xyz/images/{{cover_image}}'>
+    <meta name='og:type' content='article'>
+    <meta name='twitter:card' content='summary_large_image'>
+    <meta name='twitter:title' content='{{title}}'>
+    <meta name='twitter:description' content="{{decription}}">
+    <meta name='twitter:image' content='https://kry008.xyz/images/{{cover_image}}'>
+    <meta name='twitter:creator' content='@moje555'>
+    <meta name="url" content="{{url}}">
+    <meta name="twitter:url" content="{{url}}">
+</head>
+<body>
+	<div class="main-menu">
+		<div class="logo">
+			<a href="/"><img src="/images/logo.webp"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="/">My nook</a></li>
+				<li><a href="/blog">My blog</a></li>
+			</ul>
+		</nav>
+	</div>
+    <div id="blog-page">
+        <div class="spacer-blog"></div>
+		{{article}}
+        <div class="spacer-blog"></div>
+    </div>
+	<div id="footer">
+		<p>© 2025 Kry008</p>
+		<p>All rights reserved.</p>
+		<p class="hide">Made with ❤️ in Poland</p>
+		<p>Be your self 🦊</p>
+		<p>Host on <a href="https://mikr.us/?r=kry008" target="_blank">MikrUS</a></p>
+	</div>
+</body>
+<script>
+  window.addEventListener('scroll', function () {
+    const menu = document.querySelector('.main-menu');
+    if (window.scrollY > 350) {
+      menu.classList.add('scrolled');
+    } else {
+      menu.classList.remove('scrolled');
+    }
+  });
+</script>
+</html>

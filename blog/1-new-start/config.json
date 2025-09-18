@@ -1,0 +1,15 @@
+{
+    "title-en": "Start a blog on my nook",
+    "title-pl": "Start bloga w moim fragmencie internetu",
+    "subtitle-en": "First blog post",
+    "subtitle-pl": "Pierwszy wpis na blogu",
+    "decription-en": "",
+    "decription-pl": "",
+    "date": "2025-06-20",
+    "keywords-pl": "blog, artykuł",
+    "keywords-en": "blog, article",
+    "cover_image-pl": "/images/logo.webp",
+    "cover_image-en": "/images/logo.webp",
+    "visible": true,
+    "author": "kry008"
+}
